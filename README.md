@@ -43,4 +43,4 @@ The run_analysis.R script contains one function, run_analysis(), which performs 
 - Replace all instances of "meanFrequency" with "MeanFrequency"
 - Replace all instances of "BodyBody" with "Body"
 
-7) Aggregate the data on Subject and Activity, apply the mean for all observations, then save to tidyResults.csv
+7) Aggregate the data on Subject and Activity, apply the mean for all observations, then save to tidyResults.txt

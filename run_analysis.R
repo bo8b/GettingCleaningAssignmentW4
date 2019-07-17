@@ -64,5 +64,5 @@ run_analysis <- function() {
     
     # Tidy and aggregate the data
     tidyResults <- summarize_each(group_by(meanStdData,Subject,Activity),funs(mean))
-    write.table(tidyResults, file = "tidyResults.csv", row.names = FALSE,sep = ",")
+    write.table(tidyResults, file = "tidyResults.txt", row.names = FALSE)
 }
